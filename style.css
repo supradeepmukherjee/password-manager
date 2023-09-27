@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(180, 180, 180);
+    padding: 12px 3px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+table,
+tr,
+td,
+th {
+    border: 2px solid black;
+    padding: 6px;
+    border-collapse: collapse;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 23px 0;
+}
+
+.btn {
+    padding: 8px 17px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.del {
+    cursor: pointer;
+}
